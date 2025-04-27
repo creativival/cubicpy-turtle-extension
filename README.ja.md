@@ -1,4 +1,4 @@
-# CubicPyのScratch3拡張機能
+# CubicPy TurtleのScratch3拡張機能
 
 *日本語 | [English](https://creativival.github.io/cubicpy-extension/)*
 
@@ -18,17 +18,17 @@ CubicPyは、Pythonコードを使って3D空間にオブジェクトを配置�
 
 作成したオブジェクト建築物は、地面を傾けたり、オブジェクトを消すことで物理演算を使ったリアルな崩壊過程を観察できます。また、重力係数を変更することで、異なる重力環境下での物理挙動を確認できます。さらに、オブジェクトに初速度ベクトルを設定して発射することも可能です。
 
-## CubicPy拡張機能とは
+## CubicPy Turtle拡張機能とは
 
-CubicPyはPythonでのプログラミングを基本としていますが、Scratch3からCubicPyにデータを送信して、オブジェクト建築を行うことができるようになります。
+CubicPyはPythonでのプログラミングを基本としていますが、Scratch3からCubicPyにデータを送信して、オブジェクト建築を行うことができるようになります。Cubic Turtleはタートルプログラミングで直感的にキューブ建築を行うことができます。
 
-### CubicPy拡張機能の使い方
+### CubicPy Turtle拡張機能の使い方
 
 Xcratchのセットアップは以下の手順で行います：
 
-1. [Xcratch](https://xcratch.github.io/editor/#https://creativival.github.io/cubicpy-extension/projects/example.sb3)にアクセスします
-2. 「CubicPy拡張機能」が使えるサンプルプロジェクトが開きます。
-3. 「CubicPy拡張機能」のブロックが使えるようになります
+1. [Xcratch](https://xcratch.github.io/editor/#https://creativival.github.io/cubicpy-turtle-extension/projects/example.sb3)にアクセスします
+2. 「CubicPy Turtle拡張機能」が使えるサンプルプロジェクトが開きます。
+3. 「CubicPy Turtle拡張機能」のブロックが使えるようになります
 4. サンプルプロジェクトを改造して、自分だけの建築を行います。
 
 
@@ -49,9 +49,9 @@ pip install cubicpy
 cubicpy -x -g 0
 ```
 
-### CubicPy拡張機能とCubicPyライブラリを連携する
+### CubicPy Turtle拡張機能とCubicPyライブラリを連携する
 
-1. CubicPyが外部通信モードで機能すると、画面に４桁の数字が表示されます。
+1. CubicPy Turtleが外部通信モードで機能すると、画面に４桁の数字が表示されます。
 2. その数字（ルームネーム）を、スクラッチの「ルームネームを () にする」ブロックに入力する
 3. スクラッチのブロックをダブルクリックして、データを送信する
 4, Websocket鉄鏃が確立されたら、CubicPyにキューブ建築が行われます。

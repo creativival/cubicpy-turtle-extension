@@ -1,6 +1,6 @@
-# CubicPy Scratch 3 Extension
+# CubicPy Turtle Scratch3 Extension
 
-*[日本語](https://creativival.github.io/cubicpy-extension/)* | English
+*[日本語](https://creativival.github.io/cubicpy-extension/) | English*
 
 ![CubicPy Logo](https://creativival.github.io/CubicPy/assets/cubicpy_logo.png)
 
@@ -12,23 +12,23 @@ A 3D programming learning app that allows you to place and construct physical ob
 
 ## App Description
 
-CubicPy is an application that lets you place objects in 3D space using Python code and build worlds that operate with realistic physics. You can freely place objects like boxes and spheres to create structures, and learn programming while experiencing physical laws like gravity and collisions.
+CubicPy is an application that allows you to place objects in 3D space using Python code and build worlds that operate with realistic physics. You can freely place objects like boxes and spheres to create structures, and learn programming while experiencing physical laws such as gravity and collisions.
 
 ![CubicPy Sample Animation Gif](https://creativival.github.io/CubicPy/assets/cubicpy_sample.gif)
 
-You can observe realistic collapse processes using physics calculations by tilting the ground or removing objects from the structures you create. Additionally, you can check physical behavior under different gravity environments by changing the gravity coefficient. Furthermore, it's possible to set initial velocity vectors to launch objects.
+You can observe realistic collapse processes using physics calculations by tilting the ground or removing objects from your created structures. Additionally, you can check physical behavior under different gravity environments by changing the gravity coefficient. Furthermore, you can set initial velocity vectors to objects and launch them.
 
-## What is the CubicPy Extension?
+## What is the CubicPy Turtle Extension?
 
-While CubicPy is primarily based on Python programming, this extension allows you to send data from Scratch 3 to CubicPy to create object structures.
+While CubicPy is primarily based on Python programming, this extension allows you to send data from Scratch3 to CubicPy to perform object construction. Cubic Turtle enables intuitive cube construction through turtle programming.
 
-### How to Use the CubicPy Extension
+### How to Use the CubicPy Turtle Extension
 
 Set up Xcratch following these steps:
 
-1. Access [Xcratch](https://xcratch.github.io/editor/#https://creativival.github.io/cubicpy-extension/projects/example.sb3)
-2. A sample project that can use the "CubicPy Extension" will open
-3. The "CubicPy Extension" blocks will become available
+1. Access [Xcratch](https://xcratch.github.io/editor/#https://creativival.github.io/cubicpy-turtle-extension/projects/example.sb3)
+2. A sample project that can use the "CubicPy Turtle Extension" will open
+3. The "CubicPy Turtle Extension" blocks will become available
 4. Modify the sample project to create your own structures
 
 ### Preparing the CubicPy Library
@@ -48,12 +48,12 @@ pip install cubicpy
 cubicpy -x -g 0
 ```
 
-### Connecting the CubicPy Extension with the CubicPy Library
+### Connecting the CubicPy Turtle Extension with the CubicPy Library
 
-1. When CubicPy functions in external communication mode, a 4-digit number will be displayed on the screen
+1. When CubicPy Turtle functions in external communication mode, a 4-digit number will be displayed on the screen
 2. Enter that number (room name) into the Scratch "set room name to ()" block
 3. Double-click the Scratch block to send the data
-4. Once the WebSocket connection is established, cube construction will occur in CubicPy
+4. Once the WebSocket connection is established, cube construction will be performed in CubicPy
 
 ## License
 
